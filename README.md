@@ -1,4 +1,5 @@
 # RFM-Based Customer Segmentation and Early-Risk Prediction
+![Research](https://img.shields.io/badge/Type-Research-blue)
 
 This repository presents a data-driven framework for customer segmentation and early-risk prediction using transactional data. The work integrates RFM-based behavioral segmentation, temporal trend analysis, and supervised learning to identify early warning signs of customer disengagement.
 
