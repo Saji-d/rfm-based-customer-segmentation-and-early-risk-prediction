@@ -38,7 +38,7 @@ Customer churn prediction is often treated as a black-box classification task. T
 ---
 
 ## ⚠️ Notes
-- Dataset is not included due to privacy constraints
+- Uses the public UCI Online Retail dataset (not bundled in this repo)
 - The notebook focuses on reproducible methodology and evaluation
 
 ---
