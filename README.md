@@ -23,7 +23,6 @@
     <a href="#-tech-stack">Tech Stack</a> ·
     <a href="#-getting-started">Getting Started</a> ·
     <a href="#-project-structure">Structure</a> ·
-    <a href="#-roadmap">Roadmap</a> ·
     <a href="#-author">Author</a>
   </p>
 </div>
@@ -37,7 +36,7 @@ Churn is usually treated as a black-box yes or no. This project takes a more int
 It uses the public [UCI Online Retail](https://archive.ics.uci.edu/dataset/352/online+retail) dataset and supports an academic paper that is still in preparation. Everything lives in one notebook, so the whole method can be read and rerun top to bottom.
 
 > [!NOTE]
-> This is a research prototype. The early-risk label is a rule computed from the same transactions that feed the features and the train and test split is random, so the scores below describe how well the model reproduces that rule. They are not a forecast of real future churn. See the [Roadmap](#-roadmap) for the planned fix.
+> This is a research prototype. The early-risk label is a rule computed from the same transactions that feed the features and the train and test split is random, so the scores below describe how well the model reproduces that rule. They are not a forecast of real future churn.
 
 <img src="assets/divider.svg" alt="" width="100%">
 
@@ -148,6 +147,8 @@ The notebook was written for Google Colab and mounts Google Drive in its first c
 
 ## ◈ Project Structure
 
+The whole method lives in one notebook under `notebook/`, with exported figures in `docs/figures/`.
+
 ```text
 .
 ├── notebook/
@@ -160,22 +161,16 @@ The notebook was written for Google Colab and mounts Google Drive in its first c
 
 <img src="assets/divider.svg" alt="" width="100%">
 
-## ◈ Roadmap
-
-- [x] RFM segmentation with a clustering model comparison
-- [x] Monthly decline rule and early-risk label for high-value customers
-- [x] Random Forest baseline with feature importances
-- [ ] Separate feature and label windows in time so the label is a true future event
-- [ ] Chronological train and test split instead of a random one
-- [ ] Compare more models, such as gradient boosting, against the Random Forest baseline
-- [ ] Publish the accompanying paper
-
-<img src="assets/divider.svg" alt="" width="100%">
-
 ## ◈ Author
 
-**Sajidur Rahman Sajid**, Full-Stack Developer and AI engineer from Dhaka. BSc in Computer Science and Engineering.
+**Sajidur Rahman Sajid**: Full-Stack Developer and AI engineer from Dhaka.<br>
+BSc in CSE at American International University-Bangladesh (AIUB).
 
-[Portfolio](https://www.sajidur.me) · [LinkedIn](https://www.linkedin.com/in/sajidur-rahman-sajid/) · [GitHub](https://github.com/Saji-d) · [Email](mailto:sajidsajidurrahman99@gmail.com)
+<p>
+  <a href="https://www.sajidur.me"><img src="https://img.shields.io/badge/Portfolio-0B0E1A?style=flat-square&logo=googlechrome&logoColor=9B8CFA" alt="Portfolio"></a>
+  <a href="https://www.linkedin.com/in/sajidur-rahman-sajid/"><img src="https://img.shields.io/badge/LinkedIn-0B0E1A?style=flat-square&logo=linkedin&logoColor=8B7CF6" alt="LinkedIn"></a>
+  <a href="https://github.com/Saji-d"><img src="https://img.shields.io/badge/GitHub-0B0E1A?style=flat-square&logo=github&logoColor=EEF0FA" alt="GitHub"></a>
+  <a href="mailto:sajidsajidurrahman99@gmail.com"><img src="https://img.shields.io/badge/Email-0B0E1A?style=flat-square&logo=gmail&logoColor=9B8CFA" alt="Email"></a>
+</p>
 
 <sub>Released under the MIT licence.</sub>
